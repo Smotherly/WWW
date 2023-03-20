@@ -1,3 +1,7 @@
+html{
+    scroll-behavior: smooth;
+    scroll-padding: 10em;
+}
 *{
     background-color: #fcf1d2;
 }
@@ -44,7 +48,7 @@ button:hover{
     background-color: rgba(154,33,24,0.8);
 
 }
-hr.e{
+hr.e{ /*After doing RestOfTheCourse.css, I have realized that I was very naïve*/
     border-top: 5px solid #9A2118;
     border-radius: 10px;
 }
